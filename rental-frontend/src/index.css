@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities; */
 
+
 @import "tailwindcss";
+
+/* Apply Inter globally */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional: smoother rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
